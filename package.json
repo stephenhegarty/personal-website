@@ -7,8 +7,8 @@
     "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-spectral.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Stephen Hegarty",
+    "email": "s.hegarty93@hotmail.com"
   },
   "dependencies": {
     "gatsby": "^2.20.2",

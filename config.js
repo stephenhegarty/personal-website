@@ -1,34 +1,47 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Spectral', // <title>
+  siteTitle: 'Stephen Hegarty', // <title>
   manifestName: 'Spectral',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  manifestIcon: 'src/assets/img/logo.png',
+  pathPrefix: `/home/`, // This path is subpath of your hosting https://domain/portfolio
+  heading: 'Stephen Hegarty',
+  subHeading: 'Software Engineer at Mind, Musician at heart',
   // social
   socialLinks: [
     {
       style: 'brands',
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/stephenhegarty',
     },
     {
       style: 'brands',
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/_StephenHegarty',
     },
+    // {
+    //   // style: 'brands',
+    //   icon: 'fa-book',
+    //   name: 'Goodreads',
+    //   url: 'https://www.goodreads.com/user/show/114131304-stephen-hegarty',
+    // },
+    // {
+    //   style: 'brands',
+    //   icon: 'fa-instagram',
+    //   name: 'Instagram',
+    //   url: 'https://www.instagram.com/thenogoodguitarist',
+    // },
+
     {
       style: 'solid',
       icon: 'fa-envelope',
       name: 'Email',
-      url: 'mailto:test@example.com',
+      url: 'mailto:s.hegarty93@hotmail.com',
     },
   ],
 };

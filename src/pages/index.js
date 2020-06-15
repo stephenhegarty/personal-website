@@ -4,9 +4,9 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
+import pic1 from '../assets/images/spain.jpg';
+import pic2 from '../assets/images/vikiceland.jpg';
+import pic3 from '../assets/images/waterfall.jpg';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -18,7 +18,7 @@ const IndexPage = () => (
           <li>
             <Scroll type="id" element="one">
               <a href="/#" className="button primary">
-                Explore
+                Explore?
               </a>
             </Scroll>
           </li>
@@ -35,28 +35,33 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+          Hey!  I’m Stephen
+          <br />
+          <br />
+          I’m a full time Java developer at Rapid 7.
+  
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            Currently based in Belfast, Northern Ireland. 
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            I work on the InsightAppSec team and develop cool features using Java and AWS.
+            <br />
+            Outside of that, I'm an avid musician, reader and blogger.
+            <br />
+            I'm currently learning JavaScript, React Native, Python and Electrical Engineering using
+            my trusty raspberry PI. 
           </p>
         </header>
         <ul className="icons major">
           <li>
-            <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
+          <span className="icon solid fa-terminal major style2">
+              <span className="label">Ipsum</span>
             </span>
           </li>
           <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
-            </span>
+          {/* <div className="image"> */}
+          {/* <img src={pic3} alt="" /> */}
+        {/* </div> */}
           </li>
           <li>
             <span className="icon solid fa-code major style3">
@@ -74,13 +79,10 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
+            Blogs
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Coming Soon...
           </p>
         </div>
       </section>
@@ -90,13 +92,10 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
+            Programming
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Coming Soon...
           </p>
         </div>
       </section>
@@ -106,13 +105,10 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
+           Tutorials
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Coming Soon...
           </p>
         </div>
       </section>
@@ -121,69 +117,60 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
+          <h2>Projects</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+           List of github projects that I've worked on
           </p>
         </header>
         <ul className="features">
           <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
+            <h3>Project 1</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Coming soon...
             </p>
           </li>
           <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
+            <h3>Project 2</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Coming soon...
             </p>
           </li>
           <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
+            <h3>Project 3</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Coming soon...
             </p>
           </li>
           <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
+            <h3>Project 4</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Coming soon...
             </p>
           </li>
           <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
+            <h3>Project 5</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Coming soon...
             </p>
           </li>
           <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
+            <h3>Project 6</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Coming soon...
             </p>
           </li>
         </ul>
       </div>
     </section>
 
-    <section id="cta" className="wrapper style4">
+    {/* <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
+          <h2>
+            Subscribe to my newsletter.
+          </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
+          Sign up to be notified when I publish new blogs          
           </p>
         </header>
         <ul className="actions stacked">
@@ -199,7 +186,7 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-    </section>
+    </section> */}
   </Layout>
 );
 
