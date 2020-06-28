@@ -1,7 +1,7 @@
 module.exports = {
-  siteTitle: 'Stephen Hegarty', // <title>
-  manifestName: 'Spectral',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'Stephen Hegarty', 
+  manifestName: 'Sheg',
+  manifestShortName: 'Landing', 
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
@@ -20,22 +20,28 @@ module.exports = {
     },
     {
       style: 'brands',
+      icon: 'fa-linkedin',
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/stephenhegarty1993',
+    },
+    {
+      style: 'brands',
       icon: 'fa-twitter',
       name: 'Twitter',
       url: 'https://twitter.com/_StephenHegarty',
     },
     // {
-    //   // style: 'brands',
+    //   style: 'brands',
     //   icon: 'fa-book',
-    //   name: 'Goodreads',
+    //   name: 'Book',
     //   url: 'https://www.goodreads.com/user/show/114131304-stephen-hegarty',
     // },
-    // {
-    //   style: 'brands',
-    //   icon: 'fa-instagram',
-    //   name: 'Instagram',
-    //   url: 'https://www.instagram.com/thenogoodguitarist',
-    // },
+    {
+      style: 'brands',
+      icon: 'fa-instagram',
+      name: 'Instagram',
+      url: 'https://www.instagram.com/thenogoodguitarist',
+    },
 
     {
       style: 'solid',

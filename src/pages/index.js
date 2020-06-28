@@ -4,22 +4,28 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/spain.jpg';
+import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/vikiceland.jpg';
 import pic3 from '../assets/images/waterfall.jpg';
+import pic4 from '../assets/images/conference.jpg';
 import config from '../../config';
+
+var ReactRotatingText = require('react-rotating-text');
+
 const IndexPage = () => (
   <Layout>
     <section id="banner">
       <div className="inner">
         <h2>{config.heading}</h2>
-        <p>{config.subHeading}</p>
+        <p> I'm a<b></b>
+        <ReactRotatingText items={[' Java Developer', ' novice JS Developer',' Bedroom Musician', ' Java Developer', ' Bookworm' , ' Blogger', 'n Optimistic Opportunist']} />
+        </p>
         <ul className="actions special">
           <li>
             <Scroll type="id" element="one">
-              <a href="/#" className="button primary">
-                Explore?
-              </a>
+              {/* <a href="/#" className="button primary">
+                Explore
+              </a> */}
             </Scroll>
           </li>
         </ul>
@@ -35,14 +41,13 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-          Hey!  I’m Stephen
-          <br />
-          <br />
-          I’m a full time Java developer at Rapid 7.
-  
+         About
           </h2>
           <p>
+          Hey there, my name is Stephen and I'm a full time java developer at Rapid 7.
+          <br />
             Currently based in Belfast, Northern Ireland. 
+            <br />
             <br />
             I work on the InsightAppSec team and develop cool features using Java and AWS.
             <br />
@@ -52,43 +57,16 @@ const IndexPage = () => (
             my trusty raspberry PI. 
           </p>
         </header>
-        <ul className="icons major">
-          <li>
-          <span className="icon solid fa-terminal major style2">
-              <span className="label">Ipsum</span>
-            </span>
-          </li>
-          <li>
-          {/* <div className="image"> */}
-          {/* <img src={pic3} alt="" /> */}
-        {/* </div> */}
-          </li>
-          <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
-            </span>
-          </li>
-        </ul>
+          <div>
+          <img src={pic4} className="profile-image"/>
+        </div>  
       </div>
     </section>
 
     <section id="two" className="wrapper alt style2">
-      <section className="spotlight">
+    <section className="spotlight">
         <div className="image">
           <img src={pic1} alt="" />
-        </div>
-        <div className="content">
-          <h2>
-            Blogs
-          </h2>
-          <p>
-            Coming Soon...
-          </p>
-        </div>
-      </section>
-      <section className="spotlight">
-        <div className="image">
-          <img src={pic2} alt="" />
         </div>
         <div className="content">
           <h2>
@@ -101,11 +79,24 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
+          <img src={pic2} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+            Travel
+          </h2>
+          <p>
+            Coming Soon...
+          </p>
+        </div>
+      </section>
+      <section className="spotlight">
+        <div className="image">
           <img src={pic3} alt="" />
         </div>
         <div className="content">
           <h2>
-           Tutorials
+           Life
           </h2>
           <p>
             Coming Soon...
@@ -118,11 +109,14 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>Projects</h2>
-          <p>
+          {/* <p>
            List of github projects that I've worked on
+          </p> */}
+          <p>
+            Coming soon...
           </p>
         </header>
-        <ul className="features">
+        {/* <ul className="features">
           <li className="icon fa-paper-plane">
             <h3>Project 1</h3>
             <p>
@@ -159,7 +153,7 @@ const IndexPage = () => (
               Coming soon...
             </p>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </section>
 
