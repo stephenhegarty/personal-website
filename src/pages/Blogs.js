@@ -2,11 +2,11 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-const IndexPage = () => (
+const Blogs = () => (
   <Layout fullMenu>
     <article id="main">
       <header>
-        <h2>Life</h2>
+        <h2>Blogs</h2>
       </header>
       <section className="wrapper style5">
         <div className="inner">
@@ -17,4 +17,4 @@ const IndexPage = () => (
   </Layout>
 );
 
-export default IndexPage;
+export default Blogs;
