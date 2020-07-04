@@ -18,7 +18,7 @@ const IndexPage = () => (
       <div className="inner">
         <h2>{config.heading}</h2>
         <p>
-        <ReactRotatingText items={[' Java Developer', ' JS Developer',' Bedroom Musician', ' Java Developer', ' Bookworm' , ' Blogger', 'n optimist']} />
+        <ReactRotatingText items={[' Java Developer', ' JS Developer',' Bedroom Musician', ' Java Developer', ' Bookworm' , ' Blogger', 'Optimist']} />
         </p>
         <ul className="actions special">
           <li>
