@@ -17,7 +17,7 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <h2>{config.heading}</h2>
-        <p> I'm a<b></b>
+        <p>
         <ReactRotatingText items={[' Java Developer', ' JS Developer',' Bedroom Musician', ' Java Developer', ' Bookworm' , ' Blogger', 'n optimist']} />
         </p>
         <ul className="actions special">
