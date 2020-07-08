@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/logo.png',
-  pathPrefix: `/home/`, 
+  pathPrefix: ``, 
   heading: 'Stephen Hegarty',
   subHeading: 'Software Engineer at Mind, Musician at heart',
   // social
