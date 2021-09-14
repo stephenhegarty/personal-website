@@ -16,7 +16,7 @@ export default function Footer() {
         })}
       </ul>
       <ul className="copyright">
-        <li>&copy; 2020 Stephen Hegarty All rights reserved</li>
+        <li>&copy; 2021 Stephen Hegarty All rights reserved</li>
       </ul>
     </footer>
   );
