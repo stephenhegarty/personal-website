@@ -44,10 +44,10 @@ const IndexPage = () => (
         <header className="major">
           <h2>About</h2>
           <p>
-            Hey there, my name is Stephen and I'm a Senior Software Engineer at
-            Bazaarvoice.
+            Hey there, my name is Stephen and I'm a Software Engineer at
+            Confluent.
             <br />
-            Currently based in Belfast, Northern Ireland.
+            Currently based remotely in  Northern Ireland.
             <br />
             Outside of work, my hobbies include:
             <br />
